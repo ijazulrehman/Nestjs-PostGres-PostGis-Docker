@@ -1,4 +1,4 @@
-#Job Offer Filteration
+# Job Offer Filteration
 
 ## Tech stack
 
@@ -7,7 +7,7 @@
 - PostGreSQL
 - TypeORM
 
-## Running the app
+## Docker Compose
 
 Need to run
 
@@ -15,7 +15,15 @@ Need to run
 $ docker-compose up -d
 ```
 
-_Application will start on port `4040`. Navigate to [App](http://localhst:4040)_
+# Migrations
+
+Need to run
+
+```bash
+$ yarn run db:migrate
+```
+
+_After docker compose and migrations, Application will start on port `4040`. Navigate to [App](http://localhst:4040)_
 
 ## Testing Application
 

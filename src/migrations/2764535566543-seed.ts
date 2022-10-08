@@ -40,7 +40,6 @@ export class migration1665255129547 implements MigrationInterface {
         },
       };
     });
-    console.log(jbs);
     await queryRunner.manager.getRepository(Job).save(jbs as Job);
   }
 
