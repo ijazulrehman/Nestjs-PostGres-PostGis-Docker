@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "name": "Admin"
+    },
+    {
+      "id": 2,
+      "name": "Business"
+    },
+    {
+      "id": 3,
+      "name": "Conseil"
+    },
+    {
+      "id": 4,
+      "name": "CrÃ©a"
+    },
+    {
+      "id": 5,
+      "name": "Marketing / Comm"
+    },
+    {
+      "id": 6,
+      "name": "Retail"
+    },
+    {
+      "id": 7,
+      "name": "Tech"
+    }
+  ]

@@ -1,0 +1,207 @@
+[
+    {
+      "id": 1,
+      "name": "Audit / Finance",
+      "category_id": 7
+    },
+    {
+      "id": 2,
+      "name": "BizDev / Vente",
+      "category_id": 7
+    },
+    {
+      "id": 3,
+      "name": "Communication / Création",
+      "category_id": 5
+    },
+    {
+      "id": 4,
+      "name": "Community Management",
+      "category_id": 5
+    },
+    {
+      "id": 5,
+      "name": "Conseil",
+      "category_id": 5
+    },
+    {
+      "id": 6,
+      "name": "Journalisme / RP",
+      "category_id": 7
+    },
+    {
+      "id": 7,
+      "name": "Marketing",
+      "category_id": 5
+    },
+    {
+      "id": 8,
+      "name": "Opérations",
+      "category_id": 3
+    },
+    {
+      "id": 9,
+      "name": "Logistique / Achats",
+      "category_id": 6
+    },
+    {
+      "id": 10,
+      "name": "Relation client / Support",
+      "category_id": 6
+    },
+    {
+      "id": 11,
+      "name": "Design / UX / UI",
+      "category_id": 7
+    },
+    {
+      "id": 12,
+      "name": "Gestion de Projet / Produit",
+      "category_id": 7
+    },
+    {
+      "id": 13,
+      "name": "Développement Backend",
+      "category_id": 6
+    },
+    {
+      "id": 14,
+      "name": "Développement Frontend",
+      "category_id": 6
+    },
+    {
+      "id": 15,
+      "name": "Développement Mobile",
+      "category_id": 6
+    },
+    {
+      "id": 16,
+      "name": "Développement Fullstack",
+      "category_id": 6
+    },
+    {
+      "id": 17,
+      "name": "Devops / Infrastructure",
+      "category_id": 1
+    },
+    {
+      "id": 18,
+      "name": "Hardware",
+      "category_id": 1
+    },
+    {
+      "id": 19,
+      "name": "Data Science",
+      "category_id": 2
+    },
+    {
+      "id": 20,
+      "name": "SEO / SEM",
+      "category_id": 3
+    },
+    {
+      "id": 21,
+      "name": "Recherche / R&D",
+      "category_id": 4
+    },
+    {
+      "id": 22,
+      "name": "Télécom / Réseaux",
+      "category_id": 4
+    },
+    {
+      "id": 23,
+      "name": "Administration",
+      "category_id": 6
+    },
+    {
+      "id": 24,
+      "name": "Compta / Contrôle de Gestion",
+      "category_id": 1
+    },
+    {
+      "id": 25,
+      "name": "Juridique",
+      "category_id": 4
+    },
+    {
+      "id": 26,
+      "name": "RH / Formation",
+      "category_id": 4
+    },
+    {
+      "id": 27,
+      "name": "Production audiovisuelle",
+      "category_id": 5
+    },
+    {
+      "id": 28,
+      "name": "Graphisme / Illustration",
+      "category_id": 7
+    },
+    {
+      "id": 29,
+      "name": "Evenementiel",
+      "category_id": 5
+    },
+    {
+      "id": 30,
+      "name": "Store Manager",
+      "category_id": 7
+    },
+    {
+      "id": 31,
+      "name": "Vente",
+      "category_id": 2
+    },
+    {
+      "id": 32,
+      "name": "Wholesale",
+      "category_id": 2
+    },
+    {
+      "id": 33,
+      "name": "Merchandising",
+      "category_id": 7
+    },
+    {
+      "id": 35,
+      "name": "Styliste",
+      "category_id": 2
+    },
+    {
+      "id": 36,
+      "name": "Modéliste",
+      "category_id": 7
+    },
+    {
+      "id": 37,
+      "name": "Direction Artistique",
+      "category_id": 2
+    },
+    {
+      "id": 38,
+      "name": "Conseil Stratégie",
+      "category_id": 1
+    },
+    {
+      "id": 39,
+      "name": "Conseil Management/Orga",
+      "category_id": 2
+    },
+    {
+      "id": 40,
+      "name": "Conseil Digital",
+      "category_id": 3
+    },
+    {
+      "id": 41,
+      "name": "Conseil MOA / IT",
+      "category_id": 3
+    },
+    {
+      "id": 42,
+      "name": "Production/Fabrication",
+      "category_id": 7
+    }
+  ]
