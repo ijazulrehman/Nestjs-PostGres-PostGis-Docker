@@ -13,6 +13,7 @@ import { Query } from '@nestjs/common';
 import { GetJobsQueryDto } from './dto/get-jobs-query.dto';
 import { ApiOkResponse, ApiOperation, ApiTags } from '@nestjs/swagger';
 import { Job } from './entities/job.entity';
+import { OfferResponseEntity } from './entities/offer-reponse.entity';
 
 @ApiTags('jobs')
 @Controller('jobs')
@@ -21,7 +22,7 @@ export class JobsController {
 
   @Get('offers')
   @ApiOkResponse({
-    type: [Job],
+    type: [OfferResponseEntity],
   })
   @ApiOperation({
     tags: ['Jobs', 'Offers'],

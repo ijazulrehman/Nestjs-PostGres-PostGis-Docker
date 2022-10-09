@@ -3,6 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { GetJobsQueryDto } from './dto/get-jobs-query.dto';
 import { Job } from './entities/job.entity';
+import { OfferResponseEntity } from './entities/offer-reponse.entity';
 
 @Injectable()
 export class JobsService {
@@ -11,7 +12,7 @@ export class JobsService {
     private jobsRepository: Repository<Job>,
   ) {}
 
-  async find(params: GetJobsQueryDto) {
+  async find(params: GetJobsQueryDto): Promise<OfferResponseEntity> {
     const sqlQuery = `select
         "job"."id" as "id",
         contract_type ,
