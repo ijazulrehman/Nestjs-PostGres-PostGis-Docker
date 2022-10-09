@@ -32,7 +32,6 @@ export class JobsController {
   findAll(
     @Query(new ValidationPipe({ whitelist: true })) params: GetJobsQueryDto,
   ) {
-    console.log(params);
     return this.jobsService.find(params);
   }
 }

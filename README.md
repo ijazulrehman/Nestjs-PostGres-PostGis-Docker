@@ -25,6 +25,14 @@ $ yarn run db:migrate
 
 _After docker compose and migrations, Application will start on port `4040`. Navigate to [App](http://localhst:4040)_
 
+## Unit Tests
+
+Need to run
+
+```bash
+$ yarn test
+```
+
 ## Testing Application
 
 For Documentation [Swagger](https://swagger.io/) has been congfigure.
