@@ -5,10 +5,16 @@ import { ProfessionsService } from './professions.service';
 describe('ProfessionsController', () => {
   let controller: ProfessionsController;
 
+  let mockService = {};
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       controllers: [ProfessionsController],
-      providers: [ProfessionsService],
+      providers: [
+        {
+          provide: ProfessionsService,
+          useValue: mockService,
+        },
+      ],
     }).compile();
 
     controller = module.get<ProfessionsController>(ProfessionsController);
